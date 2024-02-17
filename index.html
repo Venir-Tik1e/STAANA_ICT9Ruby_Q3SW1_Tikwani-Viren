@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Memeternet</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+<style type="text/css">
+	body{
+	background-image: url(background.jpg);background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+#onetext { font-size:20px; }
+
+#small { font-size:16px; }
+
+#aone { font-size:30px; }
+
+#register { font size: 3px; }
+
+</style>
+
+<!--DIV CONTAINING DIVS-->
+
+<div class="container bg-warning rounded mt-3 w-50 p-3" id="onediv" >
+	<h2 class="text-center">Feeling unanchored?</h2>
+	<p id="onetext" class="text-center"> Login and find your happy place</p>
+
+	<br><br>
+
+	<!--DIV CONTAINING email form-->
+
+	<div class="form-group">
+		<form>
+	<div class="col w-100">
+		<label for="email">Email Address:</label><label id="small" class=" text-danger">*</label>
+		<input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+		<br>
+	</div>
+
+	<!--DIV CONTAINING password form-->
+
+<div class="col  w-100" >
+	<label for="pswd" >Password:</label><label id="small" class="text-danger">*</label>
+	<input type="password" class="form-control" placeholder="Enter password" name="pswd">
+	<br>
+
+	<!--Forgot password link (leads to steam website)-->
+
+	<a 	href="https://store.steampowered.com/login/" class="text-danger">My brain is on vacation, remind me of my password?</a>
+</div>
+
+<!--DIV CONTAINING Login button linked to steam website-->
+
+	<div class=" text-center 	mt-4">
+<a  id=aone class="btn btn-outline-dark w-75 float-left" href="https://store.steampowered.com/login/"><h3>Log In</h3></a></div>
+<br>
+<div><p  id="register" >No account? Dive in and <a class="text-danger" href="https://store.steampowered.com/login/">Register Here</a></p>
+</div>
+<div class="text-center">
+	<h3 class="text-center">Log In with QR code</h3>
+	<p class="text-center"> Scan QR code with your mobile device to login instantly</p>
+	<img class="img-thumbnail w-25  border-primary " src="qr.png" alt="Thumbnail image">
+<br>
+
+
+
+</div>
+</form>
+</div>
+</div>
+
+
+</form>
+
+
+</div>
+
+
+<div class="container-fluid\">	<br>
+
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
